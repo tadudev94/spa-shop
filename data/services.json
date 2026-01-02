@@ -1,0 +1,77 @@
+[
+    {
+        "category": "Liệu Trình Chăm Sóc Da",
+        "items": [
+            {
+                "name": "Chăm Sóc Da Cơ Bản",
+                "price": "350.000đ",
+                "description": "Làm sạch sâu, tẩy tế bào chết và đắp mặt nạ dưỡng ẩm.",
+                "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=2000"
+            },
+            {
+                "name": "Điều Trị Mụn Chuyên Sâu",
+                "price": "550.000đ",
+                "description": "Lấy nhân mụn chuẩn y khoa, chiếu ánh sáng sinh học kháng khuẩn.",
+                "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=2000"
+            },
+            {
+                "name": "Trẻ Hóa Da Collagen",
+                "price": "750.000đ",
+                "description": "Bổ sung collagen tươi giúp da căng bóng, giảm nếp nhăn.",
+                "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=2000"
+            },
+            {
+                "name": "Cấy Tảo Xoắn",
+                "price": "450.000đ",
+                "description": "Giúp da trắng sáng, mờ thâm nám và se khít lỗ chân lông.",
+                "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=2000"
+            }
+        ]
+    },
+    {
+        "category": "Massage & Thư Giãn",
+        "items": [
+            {
+                "name": "Massage Body Tinh Dầu",
+                "price": "400.000đ",
+                "description": "Massage toàn thân với tinh dầu thiên nhiên thư giãn.",
+                "image": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=2000"
+            },
+            {
+                "name": "Massage Cổ Vai Gáy",
+                "price": "250.000đ",
+                "description": "Giảm đau mỏi vùng cổ vai gáy, cải thiện tuần hoàn máu.",
+                "image": "https://images.unsplash.com/photo-1519823551278-64ac927ac4ac?auto=format&fit=crop&q=80&w=2000"
+            },
+            {
+                "name": "Gội Đầu Dưỡng Sinh",
+                "price": "150.000đ",
+                "description": "Gội đầu thảo dược kết hợp massage đầu thư giãn.",
+                "image": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&q=80&w=2000"
+            },
+            {
+                "name": "Ngâm Chân Thảo Dược",
+                "price": "100.000đ",
+                "description": "Ngâm chân với các loại thảo mộc giúp ngủ ngon.",
+                "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=2000"
+            }
+        ]
+    },
+    {
+        "category": "Gói Combo Đặc Biệt",
+        "items": [
+            {
+                "name": "Combo Thư Giãn Toàn Diện",
+                "price": "600.000đ",
+                "description": "Gồm Gội đầu dưỡng sinh + Massage cổ vai gáy + Chăm sóc da mặt.",
+                "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=2000"
+            },
+            {
+                "name": "Combo Trị Liệu Chuyên Sâu",
+                "price": "850.000đ",
+                "description": "Điều trị mụn chuyên sâu + Chiếu đèn sinh học + Massage body.",
+                "image": "https://images.unsplash.com/photo-1570174006382-141cb0f17b38?auto=format&fit=crop&q=80&w=2000"
+            }
+        ]
+    }
+]
