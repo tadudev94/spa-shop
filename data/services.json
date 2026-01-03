@@ -1,76 +1,163 @@
 [
     {
-        "category": "Liệu Trình Chăm Sóc Da",
+        "category": "Chăm Sóc & Dưỡng Da (Da thường, ít mụn)",
         "items": [
             {
-                "name": "Chăm Sóc Da Cơ Bản",
-                "price": "350.000đ",
-                "description": "Làm sạch sâu, tẩy tế bào chết và đắp mặt nạ dưỡng ẩm.",
-                "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=2000"
+                "name": "Cấp nước cấp ẩm chuyên sâu",
+                "price": "299.000đ",
+                "description": "Giúp da căng bóng, đủ nước, ẩm mượt và sáng khỏe hơn"
             },
             {
-                "name": "Điều Trị Mụn Chuyên Sâu",
-                "price": "550.000đ",
-                "description": "Lấy nhân mụn chuẩn y khoa, chiếu ánh sáng sinh học kháng khuẩn.",
-                "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=2000"
+                "name": "Chăm sóc phục hồi",
+                "price": "309.000đ",
+                "description": "Phục hồi da đỏ yếu, giúp da căng bóng và sáng khỏe"
             },
             {
-                "name": "Trẻ Hóa Da Collagen",
-                "price": "750.000đ",
-                "description": "Bổ sung collagen tươi giúp da căng bóng, giảm nếp nhăn.",
-                "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=2000"
+                "name": "Phục hồi 2 tầng",
+                "price": "349.000đ",
+                "description": "Phục hồi x2, giảm đỏ và khô da nhanh chóng"
             },
             {
-                "name": "Cấy Tảo Xoắn",
-                "price": "450.000đ",
-                "description": "Giúp da trắng sáng, mờ thâm nám và se khít lỗ chân lông.",
-                "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=2000"
+                "name": "Phục hồi và tái tạo da",
+                "price": "379.000đ",
+                "description": "Giảm sưng, sáng mịn và căng bóng da"
+            },
+            {
+                "name": "Tái sinh căng bóng da",
+                "price": "429.000đ",
+                "description": "Giúp da sáng mịn, phục hồi và căng bóng rõ rệt"
+            },
+            {
+                "name": "Detox phục hồi da với oxygen tươi",
+                "price": "459.000đ",
+                "description": "Thanh lọc da với oxygen tươi, giảm sưng, cấp nước và ẩm"
+            },
+            {
+                "name": "Detox thải độc da kết hợp",
+                "price": "499.000đ",
+                "description": "Thanh lọc sâu, oxygen tươi và tinh chất tái sinh từ tảo xoắn"
+            }
+        ],
+        "note": [
+            "Có thể kết hợp phun oxygen (+60)",
+            "Tất cả liệu trình đều xử lý sạch nhân mụn trước khi chăm sóc"
+        ]
+    },
+    {
+        "category": "Phục Hồi Chuyên Sâu",
+        "items": [
+            {
+                "name": "Phục hồi da tổn thương – Skin Recover",
+                "price": "799.000đ",
+                "description": "Phục hồi da tăng sinh, giảm kích ứng do thời tiết, mỹ phẩm."
+            },
+            {
+                "name": " Xử lý mụn không viêm",
+                "price": "70.000đ"
+            },
+            {
+                "name": "Điều trị da theo tình trạng",
+                "price": "",
+                "description": "Cần soi da và tư vấn trực tiếp"
             }
         ]
     },
     {
-        "category": "Massage & Thư Giãn",
+        "category": "Massage Da Mặt",
         "items": [
             {
-                "name": "Massage Body Tinh Dầu",
-                "price": "400.000đ",
-                "description": "Massage toàn thân với tinh dầu thiên nhiên thư giãn.",
-                "image": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=2000"
+                "name": "Massage face cơ bản",
+                "price": "130.000đ",
+                "description": "7 bước massage, chưa bao gồm mặt nạ"
             },
             {
-                "name": "Massage Cổ Vai Gáy",
+                "name": "Massage face 1",
+                "price": "180.000đ",
+                "description": "8 bước, 1 mặt nạ"
+            },
+            {
+                "name": "Massage face 2",
+                "price": "230.000đ",
+                "description": "8 bước, 2 mặt nạ"
+            },
+            {
+                "name": "Massage face 3",
+                "price": "290.000đ",
+                "description": "9 bước, 2 mặt nạ"
+            },
+            {
+                "name": "Massage face 4",
+                "price": "360.000đ",
+                "description": "10 bước, 2 mặt nạ, điện di tinh chất"
+            }
+        ]
+    },
+    {
+        "category": "Chăm Sóc Da Mụn",
+        "items": [
+            {
+                "name": "Chăm sóc da mụn chuẩn y khoa",
+                "price": "219.000đ",
+                "description": "8 bước chăm sóc, kết thúc bằng điện tím sát khuẩn – tiêu sưng"
+            },
+            {
+                "name": "Combo chăm sóc da mụn + mặt nạ giảm sưng",
                 "price": "250.000đ",
-                "description": "Giảm đau mỏi vùng cổ vai gáy, cải thiện tuần hoàn máu.",
-                "image": "https://images.unsplash.com/photo-1519823551278-64ac927ac4ac?auto=format&fit=crop&q=80&w=2000"
+                "description": "Phù hợp tất cả loại da, hạn chế da quá yếu"
+            }
+        ],
+        "details": [
+            {
+                "name": "Gel dưỡng tái sinh",
+                "price": "5.000đ"
             },
             {
-                "name": "Gội Đầu Dưỡng Sinh",
-                "price": "150.000đ",
-                "description": "Gội đầu thảo dược kết hợp massage đầu thư giãn.",
-                "image": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&q=80&w=2000"
+                "name": "Mặt nạ táo",
+                "price": "6.000đ"
             },
             {
-                "name": "Ngâm Chân Thảo Dược",
-                "price": "100.000đ",
-                "description": "Ngâm chân với các loại thảo mộc giúp ngủ ngon.",
-                "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=2000"
+                "name": "Mặt nạ phục hồi",
+                "price": "6.000đ"
+            },
+            {
+                "name": "Mix gel dưỡng + mặt nạ táo",
+                "price": "10.000đ"
+            },
+            {
+                "name": "Phun oxygen",
+                "price": "6.000đ"
             }
         ]
     },
     {
-        "category": "Gói Combo Đặc Biệt",
+        "category": "Facial Peeling",
         "items": [
             {
-                "name": "Combo Thư Giãn Toàn Diện",
-                "price": "600.000đ",
-                "description": "Gồm Gội đầu dưỡng sinh + Massage cổ vai gáy + Chăm sóc da mặt.",
-                "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=2000"
+                "name": "Peel phục hồi – căng bóng",
+                "price": "799.000đ",
+                "description": "Dành cho da yếu, mụn li ti, mất cân bằng, nhạy cảm"
             },
             {
-                "name": "Combo Trị Liệu Chuyên Sâu",
-                "price": "850.000đ",
-                "description": "Điều trị mụn chuyên sâu + Chiếu đèn sinh học + Massage body.",
-                "image": "https://images.unsplash.com/photo-1570174006382-141cb0f17b38?auto=format&fit=crop&q=80&w=2000"
+                "name": "Peel sinh học",
+                "price": "1450.000đ",
+                "description": "Phù hợp mọi loại da, kể cả da nhiễm corticoid"
+            }
+        ]
+    },
+    {
+        "category": "Chăm Sóc Body",
+        "items": [
+            {
+                "name": "Body Peeling – Full lưng",
+                "price": "240.000đ"
+            },
+            {
+                "name": "Body Peeling – 1/2 lưng",
+                "price": "150.000đ"
+            },
+            {
+                "name": "Body Peeling – Nách và cổ",
+                "price": "120.000đ"
             }
         ]
     }
