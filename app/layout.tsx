@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.description,
   generator: "v0.app",
+  verification: {
+    google: "K3M_sLGKa5m_nsvl3hnhaWvOtsdeuLvsjiB0iXe1vdA",
+  },
 }
 
 export default function RootLayout({
@@ -72,12 +75,4 @@ export default function RootLayout({
       </body>
     </html>
   )
-}
-
-export const metadata: Metadata = {
-  title: siteConfig.name,
-  description: siteConfig.description,
-  verification: {
-    google: "K3M_sLGKa5m_nsvl3hnhaWvOtsdeuLvsjiB0iXe1vdA",
-  },
 }
