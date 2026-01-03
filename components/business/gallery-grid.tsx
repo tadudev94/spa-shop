@@ -10,6 +10,9 @@ export function GalleryGrid() {
             <div className="container px-4 mx-auto">
                 <div className="text-center mb-16 space-y-4">
                     <h2 className="text-4xl md:text-5xl font-bold font-heading text-primary">Không Gian Thư Giãn</h2>
+                    <p className="sr-only">
+                        Không gian thư giãn và hình ảnh liệu trình nặn mụn, điều trị da tại Home Spa Đồng Xoài
+                    </p>
                     <p className="text-muted-foreground">Trải nghiệm sự yên bình và sang trọng</p>
                 </div>
 
@@ -22,6 +25,7 @@ export function GalleryGrid() {
                   In production, these would be real images.
                 */}
                                 <Image
+                                    priority={idx === 0}
                                     src={image.src}
                                     alt={image.alt}
                                     fill

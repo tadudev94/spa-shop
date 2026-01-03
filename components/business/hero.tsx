@@ -11,7 +11,7 @@ export function Hero() {
                 <div className="absolute inset-0 z-0 select-none">
                     <Image
                         src={siteConfig.heroImage}
-                        alt="Hero Banner"
+                        alt="Home Spa – Nặn mụn & điều trị da tại Đồng Xoài"
                         fill
                         className="object-cover transition-transform duration-700 hover:scale-105"
                         priority
@@ -24,12 +24,12 @@ export function Hero() {
 
             <div className="container relative z-10 px-4 text-center space-y-8 animate-in fade-in slide-in-from-bottom-8 duration-1000">
                 <div className="space-y-4">
-                    <p className="text-xl md:text-2xl font-serif italic text-white/90 font-medium tracking-wide drop-shadow-md">
-                        Welcome to
-                    </p>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white font-heading drop-shadow-lg">
                         {siteConfig.name}
                     </h1>
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white font-heading drop-shadow-lg">
+                         {siteConfig.h2}
+                    </h2>
                     <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
                         {siteConfig.description}
                     </p>

@@ -29,3 +29,31 @@ export default function Home() {
     </main>
   )
 }
+
+export const metadata = {
+  title: "Nặn mụn & điều trị da tại Đồng Xoài | Home Spa",
+  description:
+    "Home Spa chuyên nặn mụn, chăm sóc và điều trị da an toàn tại Đồng Xoài. Liệu trình chuẩn y khoa, không thâm sẹo, đặt lịch nhanh.",
+  alternates: {
+    canonical: "https://avocado-spa.vercel.app",
+  },
+  openGraph: {
+    title: "Nặn mụn & điều trị da tại Đồng Xoài | Home Spa",
+    description:
+      "Spa nặn mụn và điều trị da uy tín tại Đồng Xoài. Chăm sóc da chuyên sâu, không đau, an toàn cho da nhạy cảm.",
+    url: "https://avocado-spa.vercel.app/",
+    images: [
+      {
+        url: "/og-spa-dong-xoai.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Spa nặn mụn và điều trị da tại Đồng Xoài",
+      },
+    ],
+
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+}

@@ -17,11 +17,12 @@ const services = servicesData as ServiceCategory[]
 
 export function ServicesGrid() {
     const title = siteConfig.theme === 'food' ? "Thực đơn hôm nay" :
-        siteConfig.theme === 'spa' ? "Dịch Vụ & Liệu Trình" :
+        siteConfig.theme === 'spa' ? "Dịch vụ & liệu trình tại Home Spa" :
             "Dịch vụ & Bảng giá"
 
     return (
         <section id="services" className="py-20 md:py-32 bg-background">
+            <p className="sr-only">Nặn mụn và điều trị da tại Đồng Xoài</p>
             <div className="container px-4 mx-auto">
                 <div className="text-center mb-16 space-y-4">
                     <h2 className="text-4xl md:text-5xl font-bold font-heading">{title}</h2>
@@ -32,13 +33,15 @@ export function ServicesGrid() {
                     {services.map((category, idx) => (
                         <Card key={idx} className="border-none shadow-none bg-muted/30">
                             <CardHeader className="text-center pb-2">
-                                <CardTitle className="text-2xl font-serif text-primary">{category.category}</CardTitle>
+                                <CardTitle className="text-2xl font-serif text-primary">
+                                    {category.category}
+                                </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6 pt-6">
                                 {category.items.map((item, itemIdx) => (
                                     <div key={itemIdx} className="flex justify-between items-baseline group border-b border-dashed border-muted-foreground/20 pb-2 last:border-0 last:pb-0">
                                         <div className="space-y-1 relative pr-4 flex-1">
-                                            <div className="font-bold text-lg group-hover:text-primary transition-colors font-serif">{item.name}</div>
+                                            <h3 className="font-bold text-lg group-hover:text-primary transition-colors font-serif">{item.name}</h3>
                                             <div className="text-sm text-muted-foreground line-clamp-2 italic">{item.description}</div>
                                         </div>
                                         <div className="font-bold text-lg whitespace-nowrap text-primary">{item.price}</div>

@@ -7,6 +7,9 @@ export function BookingSection() {
             <div className="container px-4 mx-auto">
                 <div className="text-center mb-12 space-y-4">
                     <h2 className="text-4xl font-bold font-heading">Địa chỉ & Liên hệ</h2>
+                    <p className="sr-only">
+                        Địa chỉ Home Spa – Nặn mụn & điều trị da tại Đồng Xoài
+                    </p>
                     <p className="text-xl text-muted-foreground">Ghé thăm hoặc liên hệ trực tiếp để được tư vấn tốt nhất</p>
                 </div>
 
@@ -31,7 +34,12 @@ export function BookingSection() {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold mb-1">Hotline / Zalo</h3>
-                                    <p className="text-muted-foreground">{siteConfig.contact.phone}</p>
+                                    <p className="text-muted-foreground"><a
+                                        href={`tel:${siteConfig.contact.phone}`}
+                                        className="text-primary font-medium hover:underline"
+                                    >
+                                        {siteConfig.contact.phone}
+                                    </a></p>
                                 </div>
                             </div>
 
@@ -51,6 +59,7 @@ export function BookingSection() {
                     <div className="space-y-4 order-1 lg:order-2 h-full min-h-[300px]">
                         <div className="w-full h-full min-h-[300px] rounded-2xl overflow-hidden shadow-lg border-4 border-background">
                             <iframe
+                                title="Bản đồ Home Spa Đồng Xoài"
                                 src={siteConfig.contact.mapEmbedUrl}
                                 width="100%"
                                 height="100%"

@@ -39,6 +39,33 @@ export default function RootLayout({
         ${playfair.variable} 
         font-sans antialiased
       `}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BeautySalon",
+              name: "Home Spa",
+              url: "https://avocado-spa.vercel.app/",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Đồng Xoài",
+                addressRegion: "Bình Phước",
+                addressCountry: "VN",
+              },
+              priceRange: "$$",
+              areaServed: "Đồng Xoài",
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: 4.9,
+                reviewCount: 127,
+              },
+              sameAs: [
+                "https://www.facebook.com/profile.php?id=61563770278945",
+              ],
+            }),
+          }}
+        />
         {children}
         <Toaster position="top-center" richColors />
         <Analytics />

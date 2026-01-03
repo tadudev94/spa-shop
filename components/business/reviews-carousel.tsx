@@ -17,6 +17,9 @@ export function ReviewsCarousel() {
             <div className="container px-4 mx-auto">
                 <div className="text-center mb-12 space-y-4">
                     <h2 className="text-4xl md:text-5xl font-bold font-heading">Khách hàng nói gì</h2>
+                    <p className="sr-only">
+                        Đánh giá thực tế từ khách hàng đã trải nghiệm dịch vụ nặn mụn và điều trị da tại Home Spa Đồng Xoài
+                    </p>
                 </div>
 
                 <Carousel

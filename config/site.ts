@@ -1,5 +1,6 @@
 export type SiteConfig = {
     name: string
+    h2: string,
     description: string
     theme: "nail" | "spa" | "barber" | "tattoo" | "food"
     heroImage?: string
@@ -28,7 +29,8 @@ export type SiteConfig = {
 
 export const siteConfig: SiteConfig = {
     name: "Avocado Spa & Skin Care",
-    description: "“Không gian thư giãn và tái tạo năng lượng của bạn. Trải nghiệm các liệu trình chăm sóc da hữu cơ cao cấp và những liệu pháp massage êm dịu.”",
+    h2: "Spa nặn mụn & điều trị da chuẩn y khoa tại Đồng Xoài",
+    description: "“Chuyên nặn mụn ẩn, mụn viêm – không thâm sẹo. Home spa uy tín tại Đồng Xoài, nhận khách tại nhà.”",
     theme: "spa",
     heroImage: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=2600", // Spa/Massage image
     mainNav: [
