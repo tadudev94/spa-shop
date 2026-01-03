@@ -73,3 +73,11 @@ export default function RootLayout({
     </html>
   )
 }
+
+export const metadata: Metadata = {
+  title: siteConfig.name,
+  description: siteConfig.description,
+  verification: {
+    google: "K3M_sLGKa5m_nsvl3hnhaWvOtsdeuLvsjiB0iXe1vdA",
+  },
+}
