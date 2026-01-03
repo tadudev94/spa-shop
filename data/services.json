@@ -143,22 +143,5 @@
                 "description": "Phù hợp mọi loại da, kể cả da nhiễm corticoid"
             }
         ]
-    },
-    {
-        "category": "Chăm Sóc Body",
-        "items": [
-            {
-                "name": "Body Peeling – Full lưng",
-                "price": "240.000đ"
-            },
-            {
-                "name": "Body Peeling – 1/2 lưng",
-                "price": "150.000đ"
-            },
-            {
-                "name": "Body Peeling – Nách và cổ",
-                "price": "120.000đ"
-            }
-        ]
     }
 ]
